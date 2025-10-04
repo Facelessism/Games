@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Game -Facelessism Version</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Game</h1>
+        <div class="game-container">
+            <p id="word-display">Click START to begin!!!</p>
+            <input type="text" id="word-input" placeholder="Type here..." disabled>
+            
+            <div class="stats">
+                <span id="score">Score: 0</span>
+                <span id="wpm">WPM: 0</span>
+                <span id="accuracy">Accuracy: 0%</span>
+                <span id="streak">Streak: 0</span>
+            </div>
+            
+            <div id="timer-bar">
+                <div id="timer-fill"></div>
+            </div>
+            <span id="timer">60s</span>
+
+            <button id="start-btn">Start / Restart</button>
+            <p id="high-score">High Score: 0</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
